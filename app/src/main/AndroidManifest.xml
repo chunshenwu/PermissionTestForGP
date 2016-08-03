@@ -2,6 +2,8 @@
 <manifest package="com.jason_wu.permissiontestforgp"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--<uses-permission-sdk-23 android:name="android.permission.USE_FINGERPRINT"/>-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
