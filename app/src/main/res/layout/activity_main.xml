@@ -11,11 +11,22 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="compileSdkVersion 23\nminSdkVersion 16"
         android:textSize="20sp"
         android:layout_centerInParent="true"
-
         />
+
+    <TextView
+        android:id="@+id/ver"
+        android:layout_below="@id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n4.0, 測試從3.0升級到4.0是否會收到更新"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        />
+
 </RelativeLayout>
